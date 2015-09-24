@@ -71,6 +71,7 @@ Bachelor of Arts (double major) in Game Design
 **Sweden Day**, Beijing, China                                                                    Mar. 2012 – June 2012
 
 *   Designed a three-month marketing plan with the team and attracted more than 5,000 students to participate
+
 **Association of Students International Communication** , Beijing, China                          Sep. 2009 – June 2012
 
 *   Marketing manager of the association (top 10 student association in Tsinghua)
