@@ -1,0 +1,13 @@
+---
+author: luzhc
+comments: true
+date: 2013-09-27 10:37:14+00:00
+layout: post
+slug: idf-2013
+title: IDF 2013, San Francisco, USA
+wordpress_id: 224
+categories:
+- Conference
+---
+
+No Content Found
