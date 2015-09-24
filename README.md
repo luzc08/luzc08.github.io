@@ -1,3 +1,8 @@
-# luzc08.github.io
-My website
-Hello, this is the website of Zhicong Caleb Lu
+My Personal Website
+============
+
+Thanks to Herring Cove Theme.
+Herring Cove is a clean and responsive theme for Jekyll. 
+
+### License
+* [MIT](http://opensource.org/licenses/MIT)
