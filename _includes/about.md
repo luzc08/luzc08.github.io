@@ -2,18 +2,18 @@ Please feel free to download [my CV in pdf](http://luzhc.com/wp-content/uploads/
 
 # Zhicong Lu
 
-Room 224, 310 Bloor St. West, Toronto M5S1W4| +1 6478682481 | luzhc.com | luzhc@cs.toronto.edu
+Room 224, 310 Bloor St. West, Toronto M5S1W4| +1 6478682481 | <luzhc.com> | <luzhc@cs.toronto.edu>
 
 **EDUCATION**
 
 * * *
- **University of Toronto**, Toronto, Canada  Sept. 2015
+ **University of Toronto**, Toronto, Canada ->Sept. 2015
 
-**Tsinghua University**, Beijing, China July 2015
+**Tsinghua University**, Beijing, China ->July 2015
 
 Master of Arts in Interdisciplinary Studies of Information Art &amp; Design
 
-**Tsinghua University**, Beijing, China                                       Aug. 2008 – July 2012
+**Tsinghua University**, Beijing, China  ->Aug. 2008 – July 2012
 
 Bachelor of Engineering in Electronic Information Science and Technology
 
