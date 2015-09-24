@@ -7,10 +7,10 @@ Room 224, 310 Bloor St. West, Toronto M5S1W4| +1 6478682481 | luzhc.com | luzhc@
 **EDUCATION**
 
 * * *
-|:--------|--------:|
+|--------|--------:|
 | **University of Toronto**, Toronto, Canada | Sept. 2015 |
 
-|:--------|--------:|
+|--------|--------:|
 | **Tsinghua University**, Beijing, China | July 2015 |
 
 Master of Arts in Interdisciplinary Studies of Information Art &amp; Design
