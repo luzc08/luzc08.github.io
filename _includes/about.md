@@ -1,10 +1,4 @@
-title: CV
-id: 5
-comment: false
-date: 2014-11-08 01:23:59
----
-
-Please feel free to download [my CV in pdf](http://luzhc.com/wp-content/uploads/2015/01/CV_Zhicong-Lu.pdf "CV of Zhicong Lu").
+Please feel free to download [my CV in pdf](http://luzhc.com/wp-content/uploads/2015/01/CV_Zhicong-Lu.pdf).
 
 # Zhicong Lu
 
