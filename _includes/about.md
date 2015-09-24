@@ -2,7 +2,7 @@ Please feel free to download [my CV in pdf](http://luzhc.com/wp-content/uploads/
 
 # Zhicong Lu
 
-Room 224, 310 Bloor St. West, Toronto M5S1W4| +1 6478682481 | <luzhc.com> | <luzhc@cs.toronto.edu>
+Room 224, 310 Bloor St. West, Toronto M5S1W4| +1 6478682481 | luzhc.com | <luzhc@cs.toronto.edu>
 
 **EDUCATION**
 
@@ -32,7 +32,7 @@ Bachelor of Arts (double major) in Game Design
 *   Designed a user-centered mobile app providing daily information for aquaculture farmers, to help them raise production and reduce potential losses out of natural disasters
 *   Produced research of the application of tangible user interaction and gamification in agriculture referring to over 20 papers; highly praised by Prof. Henry Duh as a new research direction about HCI and food product innovation
 
-**Firgadget, Student Innovation Contest, UIST 2014**, Honolulu, Hawaii, USA**                           Sep. 2014–Nov.2014
+**Firgadget, Student Innovation Contest, UIST 2014**, Honolulu, Hawaii, USA                           Sep. 2014–Nov.2014
 
 *   A project studying how smart device can help people reduce food waste and form a healthy eating habit.
 **Huanhuan, Personal Robot for remote communication,** Beijing, China                                                 June 2014 –
