@@ -2,17 +2,20 @@ Please feel free to download [my CV in pdf](http://luzhc.com/wp-content/uploads/
 
 # Zhicong Lu
 
-Room 620, Building 15, Tsinghua Univ. | +86-1512-0001-206 | luzhc.com | luzc12@mails.tsinghua.edu.cn
+Room 224, 310 Bloor St. West, Toronto M5S1W4| +1 6478682481 | luzhc.com | luzhc@cs.toronto.edu
 
 **EDUCATION**
 
 * * *
+|:--------|--------:|
+| **University of Toronto**, Toronto, Canada | Sept. 2015 |
 
-**Tsinghua University**, Beijing, China                                                                                                                    July 2015
+|:--------|--------:|
+| **Tsinghua University**, Beijing, China | July 2015 |
 
 Master of Arts in Interdisciplinary Studies of Information Art &amp; Design
 
-**Tsinghua University**, Beijing, China                                                                                               Aug. 2008 – July 2012
+**Tsinghua University**, Beijing, China                                       Aug. 2008 – July 2012
 
 Bachelor of Engineering in Electronic Information Science and Technology
 
@@ -37,11 +40,11 @@ Bachelor of Arts (double major) in Game Design
 **Viti-cool, Tsinghua University Startup Incubator**, Beijing, China                                                               July 2014 –
 
 *   Developed a smart solar-powered wireless sensor network for urban agriculture using Raspberry Pi to help farmers take care of plants easily by colleting important plant parameters and controlling growing environment
-**LEGO2NANO, Demo in Interaction Design and Children 2014**, Aarhus, Denmark**                              **Sep. 2013
+**LEGO2NANO, Demo in Interaction Design and Children 2014**, Aarhus, Denmark                              Sep. 2013
 
 *   A project studying the possibility for children to actively participate in scientific research by building low-cost scientific instruments and online platform for them to share their experience
 *   Realized visualization of the resulting data and designed a website for crowdsourcing with Processing and JavaScript
-**PiMi,** **Personal PM2.5 Monitor with Related App**, Beijing, China**                        **Jan. 2013 – Dec. 2013
+**PiMi,Personal PM2.5 Monitor with Related App**, Beijing, China                        Jan. 2013 – Dec. 2013
 
 *   Designed the interaction of the device to indicate air quality with different light colors
 *   Developed a website for customers to share data and experience about improving air quality
@@ -49,7 +52,7 @@ Bachelor of Arts (double major) in Game Design
 
 *   A camera to realize the post-processing effects instantly when shooting a photo with computer vision and projection
 *   Developed the UI of the software with Qt and a light generating system using openGL
-**“Falling in Love with Library” Tsinghua Library Publicity Project**, Beijing, China**         **Apr. 2011 – Nov. 2011
+**“Falling in Love with Library” Tsinghua Library Publicity Project**, Beijing, China        Apr. 2011 – Nov. 2011
 
 *   Awarded the 1<sup>st</sup> place of the 10th IFLA International Marketing Award in 2012
 *   Wrote the script for 1 of the 5 video dramas; ranked the best story in Tsinghua students’ feedback
@@ -63,7 +66,7 @@ Bachelor of Arts (double major) in Game Design
 **Sweden Day**, Beijing, China**                                                                                                               **Mar. 2012 – June 2012
 
 *   Designed a three-month marketing plan with the team and attracted more than 5,000 students to participate
-**Association of Students International Communication**, Beijing, China**                          **Sep. 2009 – June 2012
+**Association of Students International Communication** , Beijing, China**                          **Sep. 2009 – June 2012
 
 *   Marketing manager of the association (top 10 student association in Tsinghua)
 &nbsp;
@@ -74,10 +77,10 @@ Bachelor of Arts (double major) in Game Design
 
 **Languages:** Mandarin (Native), English (Professional working proficiency)
 
-**Programming: **C, C++, Java, Matlab, C#, JavaScript, Processing, Action Script 3.0, Python, Html5, Objective-C, PHP
+**Programming:** C, C++, Java, Matlab, C#, JavaScript, Processing, Action Script 3.0, Python, Html5, Objective-C, PHP
 
 **Hardware:** Proficient in Arduino, Raspberry Pi, FPGA, Verilog, DSP, using Altium Designer or Eagle to design PCB
 
-**Software: **Matlab, MySQL, Qt, Photoshop, Illustrator, Flash, Arduino, Processing
+**Software:** Matlab, MySQL, Qt, Photoshop, Illustrator, Flash, Arduino, Processing
 
 **Interests:** Drawing, Tennis, Erhu (Chinese traditional instrument), Photography
