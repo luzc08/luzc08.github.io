@@ -17,9 +17,8 @@ title: About
           </div>
         </div>
         <div class="row">
-          <div class="col-md-12 letter">
-            {% capture my-include %}{% include about.md %}{% endcapture %}
-            {{ my-include | markdownify }}
+          <div markdown="1" class="col-md-12 letter">
+            {% include about.md %}
           </div>
         </div>
     </div>
