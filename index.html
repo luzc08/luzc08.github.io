@@ -1,12 +1,30 @@
 ---
-title: Herring Cove
+title: Zhicong Lu, University of Toronto
 ---
 <!--{% include showcase.html %}-->
+<div class="row">
+<div class="col-md-8">
 {% include greeting.html %}
+</div>
+<div class="col-md-4">
+  <div class="news">
+  <h1>News & Travel </h1>
+  {% for event in site.data.news limit: 10%}
+        <span>
+          <h4> {{ event.event }}
+            <time class="pull-right">
+              {{ event.date }}
+            </time>
+        </span>
+    {% endfor %}
+</div>
+</div>
+</div>
+
 
 {% if site.posts != empty %}
 <div class="recent-posts">
-  <h1>Recent Posts</h1>
+  <h1>Research Highlights</h1>
   {% for post in site.posts limit: 3 %}
     {% if forloop.first %}
       {% assign add_class = 'most-recent' %}
@@ -37,3 +55,7 @@ title: Herring Cove
   </ul>
 </div>
 {% endif %}
+
+  <div class="recent-posts">
+    <h1>Projects</h1>
+  </div>

@@ -1,19 +1,18 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-
 body
 {
   color:#2c3e50;
   background-color:#f0f0f0;
   width:100%;
-  border-top:solid #d90006;
+  border-top:solid #0073d9;
   border-width:4px
 }
 
 h1,h2,h3,h4,h5,h6
 {
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
-  color:#d90006
+  color:#0073d9
 }
 
 h1
@@ -76,12 +75,12 @@ p
   transition:all .5s ease 0
 }
 
-.navbar 
+.navbar
 {
   display: none;
 }
 
-.navbar a 
+.navbar a
 {
   text-decoration: none;
   border-bottom: 1px #b1b1b1 solid;
@@ -98,7 +97,7 @@ p
   overflow-y:auto;
   z-index:1000;
   margin-top:-4px;
-  border-top:solid #d90006;
+  border-top:solid #0073d9;
   transition:all .4s ease 0;
   border-width:4px
 }
@@ -157,7 +156,7 @@ p
 
 .nav-toggle {
     display: none;
-    color: #d90006;
+    color: #0073d9;
     padding-left: 10px;
     padding-top: 10px;
   }
@@ -173,7 +172,7 @@ p
 
 .brand:hover
 {
-  color:#d90006;
+  color:#0073d9;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -207,8 +206,8 @@ p
 
 blockquote
 {
-  border-left:2px solid #d90006;
-  border-right:2px solid #d90006;
+  border-left:2px solid #0073d9;
+  border-right:2px solid #0073d9;
   margin-left:-40px;
   margin-right:-40px;
   padding-left:40px;
@@ -282,6 +281,43 @@ pre
   padding:0 10% 30px
 }
 
+.news
+{
+  width: 100%;
+  padding-top: 5px
+}
+
+.news > h1
+{
+  font-size:2.5em;
+  font-weight:700;
+  color:#0073d9;
+  line-height:130%
+}
+
+.news h1:hover
+{
+  font-size:2.5em;
+  font-weight:700;
+  color:#2d4440;
+  transition:all .5s ease 0
+}
+
+.news h4
+{
+  font-size:1.0em;
+  font-weight:100;
+  color:#2e2e2e;
+  padding-top:0;
+  line-height:160%
+}
+
+.news h4 a
+{
+  font-weight:100;
+  color:#0073d9
+}
+
 #welcome-greeting
 {
   width:100%;
@@ -290,15 +326,15 @@ pre
 
 #welcome-greeting > h1
 {
-  font-size:3em;
+  font-size:2.5em;
   font-weight:700;
-  color:#d90006;
+  color:#0073d9;
   line-height:130%
 }
 
 #welcome-greeting h1:hover
 {
-  font-size:3em;
+  font-size:2.5em;
   font-weight:700;
   color:#2d4440;
   transition:all .5s ease 0
@@ -306,7 +342,7 @@ pre
 
 #welcome-greeting > h2
 {
-  font-size:2em;
+  font-size:1.5em;
   font-weight:100;
   color:#2e2e2e;
   padding-top:0;
@@ -316,7 +352,7 @@ pre
 #welcome-greeting h2 a
 {
   font-weight:100;
-  color:#d90006
+  color:#0073d9
 }
 
 .credit
@@ -370,7 +406,7 @@ pre
 {
   font-size:35px;
   font-weight:700;
-  color:#d90006;
+  color:#0073d9;
   padding-top:15px
 }
 
@@ -450,7 +486,7 @@ time
   background-color:#fff;
   color:#4d4d4d;
   box-shadow:1px 1px 0 1px #e8e8e8;
-  margin:10px 10%;
+  //margin:10px 10%;
   padding:10px 40px
 }
 
@@ -552,7 +588,7 @@ time
   font-weight:bolder;
   font-size:2.5em;
   line-height:55px;
-  color:#d90006
+  color:#0073d9
 }
 
 .user-card p
@@ -693,7 +729,7 @@ time
 }
 
 #sidebar-wrapper {
-    border-right: 4px solid #d90006;
+    border-right: 4px solid #0073d9;
     border-top: none;
     left: 0px;
 }
@@ -715,7 +751,7 @@ time
 .inset {
   padding: 15px;
 }
-.navbar 
+.navbar
 {
   display: inherit;
   background-color: #ededed;
@@ -726,7 +762,7 @@ time
 
 @media screen and (max-width: 500px) {
   #welcome-greeting h2 {
-   font-size: 15px; 
+   font-size: 15px;
    transition: all 0.2s ease 0s;
    font-weight: 200;
    line-height: 30px;
