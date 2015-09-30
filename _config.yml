@@ -21,6 +21,10 @@ markdown: redcarpet
 redcarpet:
   extensions: ["tables"]
 
+collections:
+  projects:
+    output: true
+
 defaults:
   - scope:
       path: ""
