@@ -17,7 +17,7 @@ disqus: luzc08
 
 
 highlighter: pygments
-markdown: redcarpet
+markdown: kramdown
 redcarpet:
   extensions: ["tables"]
 
