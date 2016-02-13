@@ -1,6 +1,6 @@
 name: Zhicong Lu
 author: Zhicong Lu
-baseurl: 
+baseurl:
 description: Research Assistant in HCI
 description1: University of Toronto
 github: http://www.github.com/luzc08
@@ -23,6 +23,8 @@ redcarpet:
 collections:
   projects:
     output: true
+  publications:
+    output: true
 
 defaults:
   - scope:
@@ -35,3 +37,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: "publications"

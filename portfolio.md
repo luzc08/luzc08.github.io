@@ -3,12 +3,12 @@ title: portfolio
 permalink: /portfolio/
 ---
 
-{% for project in site.posts %}
+{% for project in site.projects %}
 <div class="project ">
     <div class="thumbnail">
         <a href="{{ site.baseurl }}{{ project.url }}">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img }}"/>
+        {% if project.image %}
+        <img class="thumbnail" src="{{ site.baseurl }}{{ project.image }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}

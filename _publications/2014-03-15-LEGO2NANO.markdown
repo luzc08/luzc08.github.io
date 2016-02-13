@@ -1,0 +1,18 @@
+---
+author: luzhc
+comments: true
+date: 2014-06-20 11:34:28+00:00
+layout: publications
+slug: publications
+title: 'LEGO2NANO: Designing interactive science for children in China'
+bib: 'Francois Grey, En-Te Hwu, Zhicong Lu, et al. LEGO2NANO: Designing interactive science for children in China. Interaction Design and Children 2014 Extended Abstract (Demo Paper), Aarhus, Denmark, 2014'
+wordpress_id: 402
+image: /images/lego4.png
+abstract: 'We envisage a future in which Chinese children can participate actively in scientific research by building low-cost scientific instruments, using them to study their environment and sharing the resulting data online for collaborative analysis with crowdsourcing technologies. We have made a first step towards this ambitious goal by launching an international challenge called LEGO2NANO involving collaborations between post-graduate, undergraduate, high school and middle school students. We describe how students involved in the challenge have designed, built and operated a low-cost atomic force microscope to explore their environment. We outline next steps, which involve establishing a facility for collaborative design and prototyping of new low-cost scientific instruments suitable for use in Chinese schools, and a virtual lab on the Web where children can share and analyze their results interactively.'
+pdf: /media/LEGO2NANO.pdf
+categories:
+- publications
+tags:
+- interaction design
+- education
+---

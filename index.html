@@ -21,10 +21,10 @@ title: Zhicong Lu, University of Toronto
 </div>
 </div>
 
-
+<!--
 {% if site.posts != empty %}
 <div class="recent-posts">
-  <h1>Research Highlights</h1>
+  <h1>Highlights</h1>
   {% for post in site.posts limit: 3 %}
     {% if forloop.first %}
       {% assign add_class = 'most-recent' %}
@@ -51,19 +51,22 @@ title: Zhicong Lu, University of Toronto
     {% assign fresh_tag = '' %}
   {% endfor %}
   <ul>
-    <a href="{{ site.baseurl }}/list.html">View More...</a>
+    <a href="{{ site.baseurl }}/publication">View More...</a>
   </ul>
 </div>
 {% endif %}
+-->
 
 <div class="col-lg-12">
-  <h1>Selected Projects</h1>
-  {% for project in site.projects limit: 6 %}
+  <h1>Featured Projects</h1>
+  {% assign projects = site.projects%}
+  {% for project in projects reversed %}
+  {% if forloop.index < 4 %}
   <div class="project ">
       <div class="thumbnail">
           <a href="{{ site.baseurl }}{{ project.url }}">
-          {% if project.img %}
-          <img class="thumbnail" src="{{ project.img }}"/>
+          {% if project.image %}
+          <img class="thumbnail" src="{{ site.baseurl }}{{ project.image }}"/>
           {% else %}
           <div class="thumbnail blankbox"></div>
           {% endif %}
@@ -75,5 +78,43 @@ title: Zhicong Lu, University of Toronto
           </a>
       </div>
   </div>
+  {% endif %}
   {% endfor %}
+  <ul>
+    <a href="{{ site.baseurl }}/projects">View More...</a>
+  </ul>
+</div>
+
+<div class="row">
+<div class="col-lg-12">
+<h1>Publications</h1>
+{% assign pubs = site.publications %}
+{% for pub in pubs reversed %}
+    <div class="project-box">
+      <div class="row">
+        <div class="col-lg-3 project-image">
+          <a href="{{ site.baseurl }}{{ pub.url }}">
+          {% if pub.image %}
+          <img src="{{ site.baseurl }}{{ pub.image }}">
+          {% else %}
+          <div class="thumbnail blankbox"></div>
+          {% endif %}
+        </a>
+        </div>
+        <div class="col-lg-9 project-post">
+          <a href="{{ site.baseurl }}{{ pub.url }}"><h3>{{ pub.title }}</h3></a>
+          <!-- <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i><time>
+            {{ pub.date | date_to_string | date: "%Y"  }}
+          </time></small></p><hr/> -->
+          <!-- <a href="{{ site.baseurl }}{{ pub.url }}">
+            <div class="post">
+          {{ pub.content | strip_html | truncatewords:75}}
+            </div>
+          </a> -->
+          <p>{{ pub.bib }}</p>
+        </div>
+      </div>
+    </div>
+{% endfor %}
+</div>
 </div>

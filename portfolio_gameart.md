@@ -1,0 +1,71 @@
+---
+title: portfolio
+permalink: /portfolio-arts-games/
+---
+
+<div class="container">
+</div>
+
+<div class="project-container">
+  <h1>Projects</h1>
+  <p>Some of the things I've dabbled on.</p>
+  <br><center>
+  <a href="{{ site.baseurl }}/portfolio-design-education"><span class="label label-danger">Design for Education</span></a>
+  <a href="{{ site.baseurl }}/portfolio-design-sustainability"><span class="label label-danger">Design for Sustainability</span></a>
+  <a href="{{ site.baseurl }}/portfolio-arts-games"><span class="label label-danger">Arts and Games</span></a>
+  <a href="{{ site.baseurl }}/portfolio-others"><span class="label label-danger">Others</span></a></center>
+</div>
+
+<!--
+{% for project in site.projects %}
+<div class="project ">
+  <div class="thumbnail">
+      <a href="{{ site.baseurl }}{{ project.url }}">
+      {% if project.image %}
+      <img class="thumbnail" src="{{ site.baseurl }}{{ project.image }}"/>
+      {% else %}
+      <div class="thumbnail blankbox"></div>
+      {% endif %}
+      <span>
+          <h1>{{ project.title }}</h1>
+          <br/>
+          <p>{{ project.description }}</p>
+      </span>
+      </a>
+  </div>
+</div>
+
+{% endfor %}
+
+<!---------------------->
+<!--{% assign pros = site.projects | where: "tags", "Arts and Games" %}-->
+{% for project in site.projects reversed%}
+{% if project.tags contains "Arts and Games" %}
+<div class="container">
+  <div class="project-box">
+    <div class="row">
+      <div class="col-md-6 project-image">
+      <a href="{{ site.baseurl }}{{ project.url }}">
+        {% if project.image %}
+        <img src="{{ site.baseurl }}{{ project.image }}">
+        {% else %}
+        <div class="thumbnail blankbox"></div>
+        {% endif %}
+      </a>
+      </div>
+      <div class="col-md-6 project-post">
+        <a href="{{ site.baseurl }}{{ project.url }}"><h1>{{ project.title }}</h1></a>
+        <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> <time>
+          {{ project.date | date_to_string | date: "%Y"  }}
+        </time></small></p><hr/>
+        <a href="{{ site.baseurl }}{{ project.url }}">
+          <div class="post">
+        {{ project.content | strip_html | truncatewords:75}}
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
