@@ -1,4 +1,4 @@
-Please feel free to download [my full CV in pdf](http://luzhc.com/wp-content/uploads/2015/01/CV_Zhicong-Lu.pdf).
+Please feel free to download [my full CV in pdf]({{ site.baseurl }}/media/Zhicong_CV.pdf).
 
 &nbsp;
 
