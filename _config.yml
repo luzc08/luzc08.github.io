@@ -1,6 +1,6 @@
 name: Zhicong Lu
 author: Zhicong Lu
-baseurl:
+baseurl: /~luzhc
 description: Research Assistant in HCI
 description1: University of Toronto
 github: http://www.github.com/luzc08
@@ -14,7 +14,6 @@ mobilenum: +1 6478682481
 disqus: luzc08
 
 ##Make sure to edit the above fields, especially for disqus.
-
 
 highlighter: rouge
 markdown: kramdown
