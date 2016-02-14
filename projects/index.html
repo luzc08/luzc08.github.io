@@ -8,10 +8,10 @@ title: Projects
     <h1>Projects</h1>
     <p>Some of the things I've dabbled on.</p>
     <br><center>
-    <a href="{{ site.baseurl }}/portfolio-design-education"><span class="label label-danger">Design for Education</span></a>
-    <a href="{{ site.baseurl }}/portfolio-design-sustainability"><span class="label label-danger">Design for Sustainability</span></a>
-    <a href="{{ site.baseurl }}/portfolio-arts-games"><span class="label label-danger">Arts and Games</span></a>
-    <a href="{{ site.baseurl }}/portfolio-others"><span class="label label-danger">Others</span></a></center>
+    {% for tag in site.portfolios %}
+    <a href="{{ site.baseurl }}{{tag.url}}"><span class="label label-danger">{{tag.title}}</span></a>
+    {% endfor %}
+    </center>
   </div>
 
 <!--
@@ -51,13 +51,14 @@ title: Projects
         </a>
         </div>
         <div class="col-md-6 project-post">
-          <a href="{{ site.baseurl }}{{ project.url }}"><h1>{{ project.title }}</h1></a>
+          <a href="{{ site.baseurl }}{{ project.url }}"><h3>{{ project.title }}</h3></a>
           <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i><time>
             {{ project.date | date_to_string | date: "%Y"  }}
-          </time></small></p><hr/>
+          </time></small></p>
           <a href="{{ site.baseurl }}{{ project.url }}">
             <div class="post">
-          {{ project.content | strip_html | truncatewords:75}}
+              <hr/>
+          {{ project.content | strip_html | truncatewords:25}}
             </div>
           </a>
         </div>

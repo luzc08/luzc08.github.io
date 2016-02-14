@@ -1,17 +1,23 @@
 - date: 2015-11
-  event: UIST2015@Charlotte
+  event: <a  target="_blank" href="http://uist.acm.org/uist2015/">UIST2015</a>@Charlotte
 
 - date: 2015-09
-  event: Start school at U of Toronto
+  event: Start school at <a  target="_blank" href="http://www.utoronto.ca/">U of Toronto</a>
 
 - date: 2015-07
-  event: Graduated from Tsinghua University
+  event: Graduated from <a target="_blank" href="http://www.tsinghua.edu.cn/">Tsinghua University</a>
 
 - date: 2015-04
-  event: CHI2015@Seoul
+  event: <a target="_blank" href="http://chi2015.acm.org/">CHI2015</a>@Seoul
 
 - date: 2014-10
-  event: UIST2014@Honolulu
+  event: <a target="_blank" href="http://uist.acm.org/uist2014/">UIST2014</a>@Honolulu
 
 - date: 2014-06
-  event: IDC2014@Aarhus
+  event: <a target="_blank" href="http://idc2014.org/">IDC2014</a>@Aarhus
+
+- date: 2013-12
+  event: Research Intern@<a target="_blank" href="http://www.hitlab.utas.edu.au/">HITLab AU</a>
+
+- date: 2013-09
+  event: <a target="_blank" href="https://newsroom.intel.com/press-kits/intel-developer-forum-san-francisco-2013/">IDF 2013</a>@San Francisco,USA

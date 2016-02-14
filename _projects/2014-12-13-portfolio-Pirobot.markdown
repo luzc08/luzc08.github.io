@@ -10,9 +10,11 @@ wordpress_id: 389
 categories:
 - Portfolio
 tags:
-- Education
+- Design for Education
 - Internet of Things
 ---
+
+Personal robot for connecting people.
 
 ![Oyster App]({{ site.baseurl }}/images/robot1.png)
 ![Oyster App]({{ site.baseurl }}/images/robot2.png)

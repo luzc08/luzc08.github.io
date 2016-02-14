@@ -13,6 +13,7 @@ tags:
 - Arts and Games
 ---
 
+A tangible augmented reality game designed to let users understand each other better.
 ![Apart]({{ site.baseurl }}/images/apart1.png)
 ![Apart]({{ site.baseurl }}/images/apart2.png)
 ![Apart]({{ site.baseurl }}/images/apart3.png)

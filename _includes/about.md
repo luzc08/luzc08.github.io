@@ -40,6 +40,18 @@ Bachelor of Arts (double major) in Game Design
 
  2008 **Scholarship for Freshmen**, Tsinghua University
 
+ &nbsp;
+
+ **Services**
+
+ * * *
+
+  2016 **CHI 2016** Reviewer for Late-Breaking Work and Art Exhibition
+  
+  2016 **DIS 2016** Reviewer for Papers and Notes
+
+  2015 **Chinese CHI 2015** Editor for Chinese CHI Newsletter
+
 &nbsp;
 
 **ACTIVITIES**

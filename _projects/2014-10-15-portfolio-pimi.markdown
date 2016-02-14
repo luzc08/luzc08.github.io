@@ -10,7 +10,7 @@ wordpress_id: 400
 categories:
 - Portfolio
 tags:
-- 'Sustainability'
+- 'Design for Sustainability'
 - Internet of Things
 ---
 

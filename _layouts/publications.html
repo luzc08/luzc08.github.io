@@ -13,9 +13,11 @@ layout: default
   </p>
   <hr/>
   <div class="post">
-    <h2>ABSTRACT</h2>
+    <h4>ABSTRACT</h4>
     <p>{{page.abstract}}</p>
+    {% if page.pdf %}
     <a href="{{ site.baseurl }}{{ page.pdf }}">pdf</a>
+    {% endif %}
   </div>
 </div>
 {% include share.html %}

@@ -39,6 +39,9 @@ permalink: /publications/
             </div>
           </a> -->
           <p>{{ pub.bib }}</p>
+          {% if pub.pdf %}
+          <p><a href="{{ pub.pdf }}">pdf</a></p>
+          {% endif %}
         </div>
       </div>
     </div>

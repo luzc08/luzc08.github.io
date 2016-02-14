@@ -1,19 +1,19 @@
 ---
-title: portfolio
-permalink: /portfolio-design-sustainability/
+layout: default
 ---
-
-<div class="container">
-</div>
 
 <div class="project-container">
   <h1>Projects</h1>
-  <p>Some of the things I've dabbled on.</p>
+  <p>Some of my projects on {{page.title}}</p>
   <br><center>
-  <a href="{{ site.baseurl }}/portfolio-design-education"><span class="label label-danger">Design for Education</span></a>
-  <a href="{{ site.baseurl }}/portfolio-design-sustainability"><span class="label label-danger">Design for Sustainability</span></a>
-  <a href="{{ site.baseurl }}/portfolio-arts-games"><span class="label label-danger">Arts and Games</span></a>
-  <a href="{{ site.baseurl }}/portfolio-others"><span class="label label-danger">Others</span></a></center>
+  {% for tag in site.portfolios %}
+  {% if tag.title == page.title %}
+  <a href="{{ site.baseurl }}{{tag.url}}"><span class="label label-active">{{tag.title}}</span></a>
+  {% else %}
+  <a href="{{ site.baseurl }}{{tag.url}}"><span class="label label-danger">{{tag.title}}</span></a>
+  {% endif %}
+  {% endfor %}
+</center>
 </div>
 
 <!--
@@ -39,8 +39,10 @@ permalink: /portfolio-design-sustainability/
 
 <!---------------------->
 <!--{% assign pros = site.projects | where: "tags", "Arts and Games" %}-->
-{% for project in site.projects reversed%}
-{% if project.tags contains "Sustainability" %}
+{% capture tag %}{{ page.title }}{% endcapture %}
+
+{% for project in site.projects reversed %}
+{% if project.tags contains tag %}
 <div class="container">
   <div class="project-box">
     <div class="row">
@@ -54,13 +56,14 @@ permalink: /portfolio-design-sustainability/
       </a>
       </div>
       <div class="col-md-6 project-post">
-        <a href="{{ site.baseurl }}{{ project.url }}"><h1>{{ project.title }}</h1></a>
-        <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> <time>
+        <a href="{{ site.baseurl }}{{ project.url }}"><h3>{{ project.title }}</h3></a>
+        <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i><time>
           {{ project.date | date_to_string | date: "%Y"  }}
-        </time></small></p><hr/>
+        </time></small></p>
         <a href="{{ site.baseurl }}{{ project.url }}">
           <div class="post">
-        {{ project.content | strip_html | truncatewords:75}}
+            <hr/>
+        <p>{{ project.content | strip_html | truncatewords:50}}</p>
           </div>
         </a>
       </div>
@@ -69,3 +72,4 @@ permalink: /portfolio-design-sustainability/
 </div>
 {% endif %}
 {% endfor %}
+{% include share.html %}

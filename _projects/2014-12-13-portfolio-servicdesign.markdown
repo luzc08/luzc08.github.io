@@ -10,7 +10,9 @@ wordpress_id: 389
 categories:
 - Service Design
 tags:
-- Sustainability
+- Design for Sustainability
 - Others
 ---
+
+A service design project to understand students' perceptions about network resources and explore the design space for better allocation of network resources on campus.
 ![Oyster App]({{ site.baseurl }}/images/servicedesign.png)

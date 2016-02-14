@@ -10,7 +10,7 @@ wordpress_id: 389
 categories:
 - Portfolio
 tags:
-- Education
+- Design for Education
 ---
 
 ![Lego2Nano]({{ site.baseurl }}/images/lego1.png)
@@ -21,5 +21,6 @@ tags:
 <ul>
 <li>A project studying the possibility for children to actively participate in scientific research by building low-cost scientific instruments and online platform for them to share their experience</li>
 <li>Realized visualization of the resulting data and designed a website for crowdsourcing with Processing and JavaScript</li>
-<li>More details: <a title="LEGO2NANO" href="http://lego2nano.openwisdomlab.net/">http://lego2nano.openwisdomlab.net/</a></li>
 </ul>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/zkVElwMXlEI" frameborder="0" allowfullscreen></iframe>
+<p>More details: <a title="LEGO2NANO" href="http://lego2nano.openwisdomlab.net/">http://lego2nano.openwisdomlab.net/</a></p>

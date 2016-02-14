@@ -10,7 +10,9 @@ wordpress_id: 389
 categories:
 - Portfolio
 tags:
-- Sustainability
+- Design for Sustainability
 - Internet of Things
 ---
+
+Energy Harvesting from ambient vibrations to supply power for wireless sensor nodes.
 ![Oyster App]({{ site.baseurl }}/images/energy.png)

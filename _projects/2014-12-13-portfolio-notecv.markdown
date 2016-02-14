@@ -12,4 +12,6 @@ categories:
 tags:
 - Others
 ---
+
+A mobile App for recognizing note to help the blind.
 ![Notes CV]({{ site.baseurl }}/images/notescv1.png)
