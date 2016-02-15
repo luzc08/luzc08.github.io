@@ -40,7 +40,7 @@ permalink: /publications/
           </a> -->
           <p>{{ pub.bib }}</p>
           {% if pub.pdf %}
-          <p><a href="{{ pub.pdf }}">pdf</a></p>
+          <p><a href="{{ site.baseurl }}{{ pub.pdf }}">pdf</a></p>
           {% endif %}
         </div>
       </div>
