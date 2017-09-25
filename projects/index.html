@@ -1,0 +1,68 @@
+---
+title: Projects
+---
+  <div class="container">
+  </div>
+
+  <div class="project-container">
+    <h1>Projects</h1>
+    <p>Some of the things I've dabbled on.</p>
+    <br><center>
+    {% for tag in site.portfolios %}
+    <a href="{{ site.baseurl }}{{tag.url}}"><span class="label label-danger">{{tag.title}}</span></a>
+    {% endfor %}
+    </center>
+  </div>
+
+<!--
+{% for project in site.projects %}
+<div class="project ">
+    <div class="thumbnail">
+        <a href="{{ site.baseurl }}{{ project.url }}">
+        {% if project.image %}
+        <img class="thumbnail" src="{{ site.baseurl }}{{ project.image }}"/>
+        {% else %}
+        <div class="thumbnail blankbox"></div>
+        {% endif %}
+        <span>
+            <h1>{{ project.title }}</h1>
+            <br/>
+            <p>{{ project.description }}</p>
+        </span>
+        </a>
+    </div>
+</div>
+
+{% endfor %}
+
+<!---------------------->
+{% assign items = site.projects | sort: 'date' %}
+{% for project in items reversed %}
+  <div class="container">
+    <div class="project-box">
+      <div class="row">
+        <div class="col-md-6 project-image">
+          <a href="{{ site.baseurl }}{{ project.url }}">
+          {% if project.image %}
+          <img src="{{ site.baseurl }}{{ project.image }}">
+          {% else %}
+          <div class="thumbnail blankbox"></div>
+          {% endif %}
+        </a>
+        </div>
+        <div class="col-md-6 project-post">
+          <a href="{{ site.baseurl }}{{ project.url }}"><h3>{{ project.title }}</h3></a>
+          <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i><time>
+            {{ project.date | date_to_string | date: "%Y"  }}
+          </time></small></p>
+          <a href="{{ site.baseurl }}{{ project.url }}">
+            <div class="post">
+              <hr/>
+          {{ project.content | strip_html | truncatewords:25}}
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endfor %}

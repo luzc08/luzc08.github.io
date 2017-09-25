@@ -1,0 +1,18 @@
+---
+author: luzhc
+comments: true
+date: 2017-05-01 11:34:28+00:00
+layout: publications
+slug: publications
+title: 'Comparing Mid-air Finger Motion with Touch for Small Target Acquisition on Wearable Devices'
+bib: "Mingming Fan, Anuruddha Hettiarachchi, Zhicong Lu, Seyong Ha, and Priyank Gupta. 2017. In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '17). ACM, New York, NY, USA, 1593-1600."
+wordpress_id: 403
+image: /images/chi17midair.jpg
+abstract: 'Mid-air finger motion takes advantage of the vast free 3D space around a device for input. Although previous research has compared mid-air finger motion with touch for mobile and large interactive surfaces, little is known about their performance for small target acquisition on ultra-small screen devices. In this paper, we empirically study the performance of mid-air finger motion and touch as input techniques for small target acquisition on smartwatches with 16 participants. Results show that mid-air finger motion can be as fast as touch but has significantly fewer errors. No statistically significant difference has been found in either mental or physical demand while using two techniques, but mid-air finger motion technique is perceived to have better performance with less frustration compared with touch.'
+pdf: /media/ea1593-fan.pdf
+categories:
+- publications
+tags:
+- interaction design
+- education
+---

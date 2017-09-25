@@ -1,0 +1,29 @@
+---
+title: About
+---
+<div class="container">
+  <div class="container">
+    <div class="row">
+      <div class="user-card">
+        <div class="row">
+          <div class="col-md-8">
+            <h1>Zhicong Lu</h1>
+            <h4> University of Toronto </h4>
+            <p><i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{site.location}}</p>
+            <p><i class="fa fa-envelope-o"></i>&nbsp;{{site.email}} </p>
+            <p><i class="fa fa-mobile"></i>&nbsp;&nbsp;{{site.mobilenum}} </p>
+            <hr />
+          </div>
+          <div class="col-md-4">
+            <img src="{{ site.baseurl }}/images/luzhc.jpg">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 letter">
+            {% capture my_include %}{% include about.md %}{% endcapture %}
+            {{ my_include | markdownify }}
+          </div>
+        </div>
+    </div>
+  </div>
+</div>

@@ -1,12 +1,30 @@
 ---
-title: Herring Cove
+title: Zhicong Lu, University of Toronto
 ---
-{% include showcase.html %}
+<!--{% include showcase.html %}-->
+<div class="row">
+<div class="col-md-8">
 {% include greeting.html %}
+</div>
+<div class="col-md-4">
+  <div class="news">
+  <h1>News & Travel </h1>
+  {% for event in site.data.news limit: 10 %}
+        <span>
+          <h4> {{ event.event }}
+            <time class="pull-right">
+              {{ event.date }}
+            </time>
+        </span>
+    {% endfor %}
+</div>
+</div>
+</div>
 
+<!--
 {% if site.posts != empty %}
 <div class="recent-posts">
-  <h1>Recent Posts</h1>
+  <h1>Highlights</h1>
   {% for post in site.posts limit: 3 %}
     {% if forloop.first %}
       {% assign add_class = 'most-recent' %}
@@ -18,7 +36,7 @@ title: Herring Cove
       <li>
         <span>
           <h4>
-            <a href="{{ site.baseurl }}/{{ post.url }}">
+            <a href="{{ site.baseurl }}{{ post.url }}">
               {{ post.title }}
             </a>
             {{ fresh_tag }}
@@ -33,7 +51,76 @@ title: Herring Cove
     {% assign fresh_tag = '' %}
   {% endfor %}
   <ul>
-    <a href="{{ site.baseurl }}/list.html">View More...</a>
+    <a href="{{ site.baseurl }}/publication">View More...</a>
   </ul>
 </div>
 {% endif %}
+-->
+
+<div class="row">
+<div class="col-lg-12">
+<h1>Publications</h1>
+{% assign pubs = site.publications %}
+{% for pub in pubs reversed %}
+    <div class="project-box">
+      <div class="row">
+        <div class="col-lg-3 project-image">
+          <a href="{{ site.baseurl }}{{ pub.url }}">
+          {% if pub.image %}
+          <img src="{{ site.baseurl }}{{ pub.image }}">
+          {% else %}
+          <div class="thumbnail blankbox"></div>
+          {% endif %}
+        </a>
+        </div>
+        <div class="col-lg-9 project-post">
+          <a href="{{ site.baseurl }}{{ pub.url }}"><h3>{{ pub.title }}</h3></a>
+          <!-- <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i><time>
+            {{ pub.date | date_to_string | date: "%Y"  }}
+          </time></small></p><hr/> -->
+          <!-- <a href="{{ site.baseurl }}{{ pub.url }}">
+            <div class="post">
+          {{ pub.content | strip_html | truncatewords:75}}
+            </div>
+          </a> -->
+          <p>{{ pub.bib }}</p>
+          {% if pub.pdf %}
+          <p><a href="{{ site.baseurl }}{{ pub.pdf }}">pdf</a></p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+{% endfor %}
+</div>
+</div>
+
+
+<div class="row">
+<div class="col-lg-12">
+  <h1>Featured Projects</h1>
+  {% assign projects = site.projects%}
+  {% for project in projects reversed %}
+  {% if forloop.index < 4 %}
+  <div class="project ">
+      <div class="thumbnail">
+          <a href="{{ site.baseurl }}{{ project.url }}">
+          {% if project.image %}
+          <img class="thumbnail" src="{{ site.baseurl }}{{ project.image }}"/>
+          {% else %}
+          <div class="thumbnail blankbox"></div>
+          {% endif %}
+          <span>
+              <h4>{{ project.title }}</h4>
+              <br/>
+              <p>{{ project.description }}</p>
+          </span>
+          </a>
+      </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+  <ul>
+    <a href="{{ site.baseurl }}/projects">View More...</a>
+  </ul>
+</div>
+</div>

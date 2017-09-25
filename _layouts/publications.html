@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div id="article">
+  <div class="article-title">{{ page.title }}</div>
+  <p>
+    {{page.bib}}
+  </p>
+  <p class="meta">
+    <small>
+      &nbsp;<i class="fa fa-calendar-o"></i> {{ page.date | date_to_string}}
+    </small>
+  </p>
+  <hr/>
+  <div class="post">
+    <h4>ABSTRACT</h4>
+    <p>{{page.abstract}}</p>
+    {% if page.pdf %}
+    <a href="{{ site.baseurl }}{{ page.pdf }}">pdf</a>
+    {% endif %}
+  </div>
+</div>
+{% include share.html %}
+{% include pager.html %}
+{% include comment.html %}

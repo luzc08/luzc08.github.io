@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<div class="project-container">
+  <h1>Projects</h1>
+  <p>Some of my projects on {{page.title}}</p>
+  <br><center>
+  {% for tag in site.portfolios %}
+  {% if tag.title == page.title %}
+  <a href="{{ site.baseurl }}{{tag.url}}"><span class="label label-active">{{tag.title}}</span></a>
+  {% else %}
+  <a href="{{ site.baseurl }}{{tag.url}}"><span class="label label-danger">{{tag.title}}</span></a>
+  {% endif %}
+  {% endfor %}
+</center>
+</div>
+
+<!--
+{% for project in site.projects %}
+<div class="project ">
+  <div class="thumbnail">
+      <a href="{{ site.baseurl }}{{ project.url }}">
+      {% if project.image %}
+      <img class="thumbnail" src="{{ site.baseurl }}{{ project.image }}"/>
+      {% else %}
+      <div class="thumbnail blankbox"></div>
+      {% endif %}
+      <span>
+          <h1>{{ project.title }}</h1>
+          <br/>
+          <p>{{ project.description }}</p>
+      </span>
+      </a>
+  </div>
+</div>
+
+{% endfor %}
+
+<!---------------------->
+<!--{% assign pros = site.projects | where: "tags", "Arts and Games" %}-->
+{% capture tag %}{{ page.title }}{% endcapture %}
+
+{% for project in site.projects reversed %}
+{% if project.tags contains tag %}
+<div class="container">
+  <div class="project-box">
+    <div class="row">
+      <div class="col-md-6 project-image">
+      <a href="{{ site.baseurl }}{{ project.url }}">
+        {% if project.image %}
+        <img src="{{ site.baseurl }}{{ project.image }}">
+        {% else %}
+        <div class="thumbnail blankbox"></div>
+        {% endif %}
+      </a>
+      </div>
+      <div class="col-md-6 project-post">
+        <a href="{{ site.baseurl }}{{ project.url }}"><h3>{{ project.title }}</h3></a>
+        <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i><time>
+          {{ project.date | date_to_string | date: "%Y"  }}
+        </time></small></p>
+        <a href="{{ site.baseurl }}{{ project.url }}">
+          <div class="post">
+            <hr/>
+        <p>{{ project.content | strip_html | truncatewords:50}}</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% endfor %}
+{% include share.html %}
