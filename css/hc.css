@@ -592,13 +592,13 @@ time
 
 .clearfix:after { clear: both; }
 
-.project { width: 33.33%; height: 250px; float: left; vertical-align: middle; box-sizing: border-box; padding: 10px; }
+.project { width: 33.33%; height: auto; float: left; vertical-align: middle; box-sizing: border-box; padding: 10px; }
 
-.thumbnail { width: 100%; height: 230px; overflow: hidden; }
+.thumbnail { width: 100%; height: auto; overflow: hidden; }
 
 .thumbnail img { width: 800px; height: auto; position: relative; }
 
-.thumbnail a { float: left; position: relative; width: 100%; height: 230px; }
+.thumbnail a { float: left; position: relative; width: 100%; height: auto; }
 
 .thumbnail a span { display: none; position: absolute; top: 0; left: 0; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.4); color: #ddd; padding: 40px; text-align: center; }
 
