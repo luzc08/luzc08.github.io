@@ -10,7 +10,13 @@ My [Portfolio in pdf]({{ site.baseurl }}/media/Portfolio2014.pdf)
 
 **University of Toronto**, Toronto, Canada
 
-Sept. 2015 – NOW
+Jan. 2017 - NOW
+
+PhD in Computer Science, Human-Computer Interaction
+
+**University of Toronto**, Toronto, Canada
+
+Sept. 2015 – Jan. 2017
 
 Master of Science in Computer Science, Human-Computer Interaction
 
