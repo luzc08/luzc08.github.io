@@ -21,9 +21,14 @@ h1
   /*color:#6d7680*/
 }
 
-h2,h3
+h2
 {
   font-weight:700
+}
+
+h3
+{
+  font-weight:400
 }
 
 h1 a,h2 a,h3 a,h4 a
@@ -39,7 +44,7 @@ h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover
 p
 {
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
-  font-weight:200
+  font-weight:250
 }
 
 .posts
@@ -150,7 +155,7 @@ p
 .sidebar-nav > .sidebar-brand > h3
 {
   font-size:15px;
-  font-weight:100;
+  font-weight:150;
   color:#5d5f67
 }
 
@@ -306,7 +311,7 @@ pre
 .news h4
 {
   font-size:1.0em;
-  font-weight:100;
+  font-weight:150;
   color:#2e2e2e;
   padding-top:0;
   line-height:160%
@@ -314,7 +319,7 @@ pre
 
 .news h4 a
 {
-  font-weight:100;
+  font-weight:150;
   color:#0073d9
 }
 
@@ -343,7 +348,7 @@ pre
 #welcome-greeting > h2
 {
   font-size:1.5em;
-  font-weight:100;
+  font-weight:200;
   color:#2e2e2e;
   padding-top:0;
   line-height:140%
@@ -351,7 +356,7 @@ pre
 
 #welcome-greeting h2 a
 {
-  font-weight:100;
+  font-weight:200;
   color:#0073d9
 }
 
@@ -469,7 +474,7 @@ img
 
 time
 {
-  color:#c9c9c9;
+  color:#717171;
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
   font-weight:100;
   text-shadow:1px 1px #fff
