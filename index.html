@@ -84,9 +84,17 @@ title: Zhicong Lu, University of Toronto
             </div>
           </a> -->
           <p>{{ pub.bib }}</p>
+          <p>
           {% if pub.pdf %}
-          <p><a href="{{ site.baseurl }}{{ pub.pdf }}">pdf</a></p>
+          <span><a href="{{ site.baseurl }}{{ pub.pdf }}">pdf</a></span>
           {% endif %}
+          {% if pub.talk %}
+          <span><a href="{{ pub.talk }}">talk</a></span>
+          {% endif %}
+          {% if pub.slides %}
+          <span><a href="{{ pub.slides }}">slides</a></span>
+          {% endif %}
+        </p>
         </div>
       </div>
     </div>
