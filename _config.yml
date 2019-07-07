@@ -1,6 +1,6 @@
 name: Zhicong Lu
 author: Zhicong Lu
-baseurl: /~luzhc    ## CHANGE HERE WHEN DEPLOY
+baseurl: #/~luzhc    ## CHANGE HERE WHEN DEPLOY
 description: Research Assistant in HCI
 description1: University of Toronto
 github: http://www.github.com/luzc08
