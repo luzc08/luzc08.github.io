@@ -788,8 +788,9 @@ time
     border-top: none;
     left: 0px;
 }
+
  .nav-toggle {
-    display: ;
+    display: none;
   }
 #wrapper.active {
   position: relative;
@@ -826,7 +827,7 @@ time
 
 @media screen and (max-width: 500px) {
   #welcome-greeting h2 {
-   font-size: 15px;
+   font-size: 18px;
    transition: all 0.2s ease 0s;
    font-weight: 400;
    line-height: 30px;
@@ -842,8 +843,14 @@ time
       padding: 0 10px 0 10px;
   }
 
+.project-image {
+  display: none;
+}
 
-
+.project-post {
+  padding-left: 30px;
+  padding-right: 20px;
+}
 
 .showcase-wrapper {
   width: 100%;
