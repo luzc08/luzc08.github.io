@@ -820,6 +820,8 @@ time
 .inset {
   padding: 15px;
 }
+
+
 .navbar
 {
   display: inherit;
@@ -827,6 +829,19 @@ time
   margin-top: -20px;
 }
 
+  .news {
+    display: none;
+  }
+
+  .my-photo {
+    display: block;
+  }
+
+  .mobile-photo {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (max-width: 500px) {
