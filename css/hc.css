@@ -47,6 +47,10 @@ p
   font-weight: 400
 }
 
+.my-photo {
+  display: none;
+}
+
 .posts
 {
   font-size:20px;
@@ -856,6 +860,20 @@ time
   width: 100%;
   height: 50%;
   font-size: small;
+}
+
+.news {
+  display: none;
+}
+
+.my-photo{
+  display: block;
+}
+
+.mobile-photo {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 }
