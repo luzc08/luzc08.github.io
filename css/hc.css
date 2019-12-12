@@ -780,6 +780,15 @@ time
   color:#3a3a3a
 }
 
+.project-image
+{
+  padding-top: 15pt;
+}
+
+.award {
+  color: darkred;
+}
+
 @media (max-width:767px) {
 
 #wrapper {

@@ -1,10 +1,10 @@
 ---
 author: luzhc
 comments: trues
-date: 2018-012-12 11:34:28+00:00
+date: 2019-06-12 11:34:28+00:00
 layout: publications
 slug: publications
-title: '"I feel it is my responsibility to stream": Streaming and Engaging with Intangible Cultural Heritage through Livestreaming (CHI 2019 <em>Best Paper Award</em>)'
+title: '"I feel it is my responsibility to stream": Streaming and Engaging with Intangible Cultural Heritage through Livestreaming <p class="award"><i class="fa fa-trophy"></i> CHI 2019 <em>Best Paper Award</em></p>'
 bib: '<b>Zhicong Lu</b>, Michelle Annett, Mingming Fan, and Daniel Wigdor. "I feel it is my responsibility to stream": Streaming and Engaging with Intangible Cultural Heritage through Livestreaming. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, p. 229. ACM, 2019.'
 wordpress_id: 414
 image: /images/ICHStreaming1.png

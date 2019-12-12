@@ -1,18 +1,20 @@
 name: Zhicong Lu
 author: Zhicong Lu
-baseurl: #/~luzhc    ## CHANGE HERE WHEN DEPLOY
-description: Research Assistant in HCI
+baseurl: #/~luzhc
+description: PhD Candidate in CS
 description1: University of Toronto
 github: http://www.github.com/luzc08
 twitter: http://www.twitter.com/luzc08
 facebook: http://www.facebook.com/calebluzc
 linkedin: https://www.linkedin.com/in/luzc08
 google-plus: https://plus.google.com/+%E9%99%86%E5%BF%97%E8%81%AA/posts/p/pub
+google-scholar: https://scholar.google.com/citations?user=xCxyGuwAAAAJ&hl=en
 email: luzhc[a]cs.toronto.edu
 location: Room 5166, 40 St. George Street, Toronto, Ontario, Canada M5S 2E4
 mobilenum: +1 6478682481
 disqus: luzc08
 
+## CHANGE baseurl WHEN DEPLOY
 ##Make sure to edit the above fields, especially for disqus.
 
 highlighter: rouge

@@ -1,0 +1,296 @@
+I"Z0<div class="project-container">
+  <h1>Publications</h1>
+  <!-- <p>Some of the things I've dabbled on.</p>
+  <br><center>
+  <a href="/~luzhc/portfolio-design-education"><span class="label label-danger">Design for Education</span></a>
+  <a href="/~luzhc/portfolio-design-sustainability"><span class="label label-danger">Design for Sustainability</span></a>
+  <a href="/~luzhc/portfolio-arts-games"><span class="label label-danger">Arts and Games</span></a>
+  <a href="/~luzhc/portfolio-others"><span class="label label-danger">Others</span></a></center> -->
+</div>
+
+<div class="row">
+<div class="col-lg-12">
+<h1>Publications</h1>
+
+
+    <div class="project-box">
+      <div class="row">
+        <div class="col-lg-3 project-image">
+          <a href="/~luzhc/publications/2019-12-09-CHI2020.html">
+          
+          <img src="/~luzhc/images/CHI2020.png" />
+          
+        </a>
+        </div>
+        <div class="col-lg-9 project-post">
+          <a href="/~luzhc/publications/2019-12-09-CHI2020.html"><h3>Complex Perceptions of Social Media Misinformation in China</h3></a>
+          <!-- <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i><time>
+            2019
+          </time></small></p><hr/> -->
+          <!-- <a href="/~luzhc/publications/2019-12-09-CHI2020.html">
+            <div class="post">
+          
+
+            </div>
+          </a> -->
+          <p>To appear at CHI 2020</p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="project-box">
+      <div class="row">
+        <div class="col-lg-3 project-image">
+          <a href="/~luzhc/publications/2019-10-04-CSCW2019.html">
+          
+          <img src="/~luzhc/images/CSCW-outdoor.png" />
+          
+        </a>
+        </div>
+        <div class="col-lg-9 project-post">
+          <a href="/~luzhc/publications/2019-10-04-CSCW2019.html"><h3>Vicariously Experiencing it all Without Going Outside: A Study of Outdoor Live Streaming in China</h3></a>
+          <!-- <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i><time>
+            2019
+          </time></small></p><hr/> -->
+          <!-- <a href="/~luzhc/publications/2019-10-04-CSCW2019.html">
+            <div class="post">
+          
+
+            </div>
+          </a> -->
+          <p><b>Zhicong Lu</b>, Michelle Annett, and Daniel Wigdor. 2019. Vicariously Experiencing it all without Going Outside: A Study of Outdoor Livestreaming in China. In Proceedings of the ACM on Human-Computer Interaction, Vol. 3, CSCW, Article 25 (November 2019). Presented at CSCW 2019</p>
+          
+          <p><a href="/~luzhc/media/cscw2019-lu.pdf">pdf</a></p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="project-box">
+      <div class="row">
+        <div class="col-lg-3 project-image">
+          <a href="/~luzhc/publications/2018-12-10-ICHStreamingCHI2019.html">
+          
+          <img src="/~luzhc/images/ICHStreaming1.png" />
+          
+        </a>
+        </div>
+        <div class="col-lg-9 project-post">
+          <a href="/~luzhc/publications/2018-12-10-ICHStreamingCHI2019.html"><h3>"I feel it is my responsibility to stream": Streaming and Engaging with Intangible Cultural Heritage through Livestreaming <p class="award"><i class="fa fa-trophy"></i> CHI 2019 <em>Best Paper Award</em></p></h3></a>
+          <!-- <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i><time>
+            2019
+          </time></small></p><hr/> -->
+          <!-- <a href="/~luzhc/publications/2018-12-10-ICHStreamingCHI2019.html">
+            <div class="post">
+          
+
+            </div>
+          </a> -->
+          <p><b>Zhicong Lu</b>, Michelle Annett, Mingming Fan, and Daniel Wigdor. "I feel it is my responsibility to stream": Streaming and Engaging with Intangible Cultural Heritage through Livestreaming. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems, p. 229. ACM, 2019.</p>
+          
+          <p><a href="/~luzhc/media/CHI2019-lu.pdf">pdf</a></p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="project-box">
+      <div class="row">
+        <div class="col-lg-3 project-image">
+          <a href="/~luzhc/publications/2019-07-01-HCIIDouyin.html">
+          
+          <img src="/~luzhc/images/hcii19.jpg" />
+          
+        </a>
+        </div>
+        <div class="col-lg-9 project-post">
+          <a href="/~luzhc/publications/2019-07-01-HCIIDouyin.html"><h3>Fifteen Seconds of Fame: A Qualitative Study of Douyin, a Short Video Sharing Mobile Application in China</h3></a>
+          <!-- <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i><time>
+            2019
+          </time></small></p><hr/> -->
+          <!-- <a href="/~luzhc/publications/2019-07-01-HCIIDouyin.html">
+            <div class="post">
+          
+
+            </div>
+          </a> -->
+          <p>Xing Lu and Zhicong Lu. Fifteen Seconds of Fame: A Qualitative Study of Douyin, A Short Video Sharing Mobile Application in China. International Conference on Human-Computer Interaction. Springer, Cham, 2019.</p>
+          
+          <p><a href="/~luzhc/media/HCII2019-lu.pdf">pdf</a></p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="project-box">
+      <div class="row">
+        <div class="col-lg-3 project-image">
+          <a href="/~luzhc/publications/2018-08-08-StreamWikiCSCW2018.html">
+          
+          <img src="/~luzhc/images/streamwiki.png" />
+          
+        </a>
+        </div>
+        <div class="col-lg-9 project-post">
+          <a href="/~luzhc/publications/2018-08-08-StreamWikiCSCW2018.html"><h3>StreamWiki: Enabling Viewers of Knowledge Sharing Live Streams to Collaboratively Generate Archival Documentation for Effective In-Stream and Post Hoc Learning</h3></a>
+          <!-- <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i><time>
+            2018
+          </time></small></p><hr/> -->
+          <!-- <a href="/~luzhc/publications/2018-08-08-StreamWikiCSCW2018.html">
+            <div class="post">
+          
+
+            </div>
+          </a> -->
+          <p><b>Zhicong Lu</b>, Seongkook Heo, and Daniel Wigdor. 2018. StreamWiki: Enabling Viewers of Knowledge Sharing Live Streams to Collaboratively Generate Archival Documentation for Effective In-Stream and Post-Hoc Learning. In Proceedings of the ACM on Human-Computer Interaction, Vol. 2, CSCW, Article 112 (November 2018). ACM, New York, NY. 26 pages.</p>
+          
+          <p><a href="/~luzhc/media/streamWiki.pdf">pdf</a></p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="project-box">
+      <div class="row">
+        <div class="col-lg-3 project-image">
+          <a href="/~luzhc/publications/2018-07-12-InkPlannerVis2018.html">
+          
+          <img src="/~luzhc/images/vast2018.png" />
+          
+        </a>
+        </div>
+        <div class="col-lg-9 project-post">
+          <a href="/~luzhc/publications/2018-07-12-InkPlannerVis2018.html"><h3>InkPlanner: Supporting Prewriting via Intelligent Visual Diagramming</h3></a>
+          <!-- <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i><time>
+            2018
+          </time></small></p><hr/> -->
+          <!-- <a href="/~luzhc/publications/2018-07-12-InkPlannerVis2018.html">
+            <div class="post">
+          
+
+            </div>
+          </a> -->
+          <p><b>Zhicong Lu</b>, Mingming Fan, Yun Wang, Jian Zhao, Michelle Annett, Daniel Wigdor. InkPlanner: Supporting Prewriting via Intelligent Visual Diagramming. IEEE Transactions on Visualization and Computer Graphics (Proceedings of VAST 2018), 25(1), 2019 (To Appear).</p>
+          
+          <p><a href="/~luzhc/media/InkPlanner.pdf">pdf</a></p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="project-box">
+      <div class="row">
+        <div class="col-lg-3 project-image">
+          <a href="/~luzhc/publications/2017-11-12-LiveStreamingCHI2018.html">
+          
+          <img src="/~luzhc/images/CHI2018.png" />
+          
+        </a>
+        </div>
+        <div class="col-lg-9 project-post">
+          <a href="/~luzhc/publications/2017-11-12-LiveStreamingCHI2018.html"><h3>You Watch, You Give, and You Engage: A Study of Live Streaming Practices in China</h3></a>
+          <!-- <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i><time>
+            2017
+          </time></small></p><hr/> -->
+          <!-- <a href="/~luzhc/publications/2017-11-12-LiveStreamingCHI2018.html">
+            <div class="post">
+          
+
+            </div>
+          </a> -->
+          <p><b>Zhicong Lu</b>, Haijun Xia, Seongkook Heo, and Daniel Wigdor. You Watch, You Give, and You Engage: A Study of Live Streaming Practices in China. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems, p. 466. ACM, 2018.</p>
+          
+          <p><a href="/~luzhc/media/CHI2018-lu.pdf">pdf</a></p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="project-box">
+      <div class="row">
+        <div class="col-lg-3 project-image">
+          <a href="/~luzhc/publications/2017-05-02-LiveStreamingHCII.html">
+          
+          <img src="/~luzhc/images/HCII17.jpg" />
+          
+        </a>
+        </div>
+        <div class="col-lg-9 project-post">
+          <a href="/~luzhc/publications/2017-05-02-LiveStreamingHCII.html"><h3>The Rise and Proliferation of Live-Streaming in China: Insights and Lessons</h3></a>
+          <!-- <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i><time>
+            2017
+          </time></small></p><hr/> -->
+          <!-- <a href="/~luzhc/publications/2017-05-02-LiveStreamingHCII.html">
+            <div class="post">
+          
+
+            </div>
+          </a> -->
+          <p>Jinglan Lin, Zhicong Lu (2017) The Rise and Proliferation of Live-Streaming in China: Insights and Lessons. In: Stephanidis C. (eds) HCI International 2017 – Posters' Extended Abstracts. HCI 2017. Communications in Computer and Information Science, vol 714. Springer, Cham</p>
+          
+          <p><a href="/~luzhc/media/HCII2017.pdf">pdf</a></p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="project-box">
+      <div class="row">
+        <div class="col-lg-3 project-image">
+          <a href="/~luzhc/publications/2017-05-01-MIDAIR.html">
+          
+          <img src="/~luzhc/images/chi17midair.jpg" />
+          
+        </a>
+        </div>
+        <div class="col-lg-9 project-post">
+          <a href="/~luzhc/publications/2017-05-01-MIDAIR.html"><h3>Comparing Mid-air Finger Motion with Touch for Small Target Acquisition on Wearable Devices</h3></a>
+          <!-- <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i><time>
+            2017
+          </time></small></p><hr/> -->
+          <!-- <a href="/~luzhc/publications/2017-05-01-MIDAIR.html">
+            <div class="post">
+          
+
+            </div>
+          </a> -->
+          <p>Mingming Fan, Anuruddha Hettiarachchi, Zhicong Lu, Seyong Ha, and Priyank Gupta. 2017. In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '17). ACM, New York, NY, USA, 1593-1600.</p>
+          
+          <p><a href="/~luzhc/media/ea1593-fan.pdf">pdf</a></p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="project-box">
+      <div class="row">
+        <div class="col-lg-3 project-image">
+          <a href="/~luzhc/publications/2014-03-15-LEGO2NANO.html">
+          
+          <img src="/~luzhc/images/lego4.png" />
+          
+        </a>
+        </div>
+        <div class="col-lg-9 project-post">
+          <a href="/~luzhc/publications/2014-03-15-LEGO2NANO.html"><h3>LEGO2NANO: Designing interactive science for children in China</h3></a>
+          <!-- <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i><time>
+            2014
+          </time></small></p><hr/> -->
+          <!-- <a href="/~luzhc/publications/2014-03-15-LEGO2NANO.html">
+            <div class="post">
+          
+
+            </div>
+          </a> -->
+          <p>Francois Grey, En-Te Hwu, Zhicong Lu, et al. LEGO2NANO: Designing interactive science for children in China. Interaction Design and Children 2014 Extended Abstract (Demo Paper), Aarhus, Denmark, 2014</p>
+          
+          <p><a href="/~luzhc/media/LEGO2NANO.pdf">pdf</a></p>
+          
+        </div>
+      </div>
+    </div>
+
+</div>
+</div>
+:ET
